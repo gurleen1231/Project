@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.Master.cs" Inherits="Project_Gunnu_Bhavin.Site1" %>
+
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <style type="text/css">
+        /*body {
+            background-image: url('/images/White-Background.jpg');
+            background-repeat: no-repeat;
+            background-position:center;
+        }*/
+        .auto-style5 {
+            color: #000000;
+            font-size: xx-large;
+        }
+        
+        .auto-style6 {
+            text-align: right;
+            margin-left: 4px;
+        }
+        
+    </style>
+    </head>
+<body>
+    <form id="form1" runat="server">
+    <div id="allpage"><p style="width: 253px; height: 184px">
+                &nbsp;<img alt="img" class="auto-style1" src="Images/th%20(1).jpg" /><h1 class="auto-style6">
+         
+                    
+                    <h1>&nbsp;</h1>
+        <h1>&nbsp;</h1>
+        <h1>AIRLINE STAFF SCHEDULE MANAGEMENT</h1>
+            </p>
+        <asp:Menu ID="Menu1" runat="server" orientation="Horizontal" >
+            <Items>
+                <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/Home.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Register" Value="Register" NavigateUrl="~/Registeration.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Contact Us" Value="About Us" NavigateUrl="~/ContactUs.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Timetable" Value="Timetable" NavigateUrl="~/TimeTable.aspx"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/FeedBack.aspx" Text="FeedBack" Value="FeedBack"></asp:MenuItem>
+            </Items>
+        </asp:Menu>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            
+            
+            
+        
+            
+            
+            </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    <p>
+       
+        <span class="auto-style5" style="font-family:'Lucida Calligraphy'; background-color: transparent; font-weight: 600; font-style:normal; font-variant: normal; text-decoration: solid; vertical-align: baseline; white-space: pre; white-space: pre-wrap;"><strong style="text-align: center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong></span>
+        <footer> </footer>
+</body>
+
+</html>
